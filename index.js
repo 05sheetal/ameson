@@ -34,7 +34,7 @@ app.post("/",(req,resp)=>{
                     pprice:req.body.pprice,
                     pcat:req.body.pcat,
                     pdec:req.body.pdec,
-                    pimg:"http://localhost:4000/uploads/"+req.file.filename
+                    pimg:"https://ameson.onrender.com/uploads/"+req.file.filename
 
 
                 })
